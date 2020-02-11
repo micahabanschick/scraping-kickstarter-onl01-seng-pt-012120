@@ -1,7 +1,7 @@
 # require libraries/modules here
 
 def create_project_hash
-  
+=begin   
   :projects => {
     "My Great Project"  => {
       :image_link => "Image Link",
@@ -16,7 +16,7 @@ def create_project_hash
       :percent_funded => "Percent Funded"
     }
   }
-
+=end
 html = File.read('fixtures/kickstarter.html')
  
 kickstarter = Nokogiri::HTML(html)
